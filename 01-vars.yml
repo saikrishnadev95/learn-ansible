@@ -32,3 +32,8 @@
     - name: Print play Variable
       ansible.builtin.debug:
         msg: "{{ URL }}"
+
+- name: Demo on roles variables
+  hosts: localhost
+  roles:
+    - demo
