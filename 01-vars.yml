@@ -26,3 +26,13 @@
         msg: "{{ URL }}"
       vars:
         URL: xyz.com
+
+    - name: Print task Variable
+      ansible.builtin.debug:
+        msg: "{{ URL }}"
+      vars:
+        URL: task.xyz.com
+
+    - name: Print play Variable
+      ansible.builtin.debug:
+        msg: "{{ URL }}"
