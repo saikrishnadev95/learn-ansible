@@ -36,4 +36,4 @@
 - name: Demo on roles variables
   hosts: localhost
   roles:
-    - demo
+    - demo:
