@@ -27,10 +27,10 @@
 #        msg: Memory Good
 #      when: used_mem|int > 50 and used_mem|int < 70
 #
-#    - name: Memory Red
-#      ansible.builtin.debug:
-#        msg: Memory Red
-#      when: used_mem|int > 70
+    - name: Memory Red
+      ansible.builtin.debug:
+        msg: Memory Red
+      when: used_mem|int > 70
 
     - name: Memory Good
       ansible.builtin.debug:
