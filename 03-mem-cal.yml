@@ -17,7 +17,6 @@
 #      ansible.builtin.debug:
 #        msg: "{{ used_mem }}"
 
-
 #    - name: Memory Good
 #      ansible.builtin.debug:
 #        msg: Memory Good
