@@ -1,0 +1,10 @@
+- name: Print role variable
+  ansible.builtin.debug:
+    msg: "URL = {{URL}}"
+
+
+- name: Copy file
+  ansible.builtin.template:
+    src: test.txt
+    dest: /tmp/test.txt
+
